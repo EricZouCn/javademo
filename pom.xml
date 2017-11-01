@@ -369,7 +369,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>root-${war.version}</finalName>
+		<finalName>/</finalName>
 		<!-- 为主资源目录开启属性过滤 -->
 		<resources>
 			<resource>
