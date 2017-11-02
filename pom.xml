@@ -97,7 +97,7 @@
       </dependency>
 
       <!-- for CXF -->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-frontend-jaxrs</artifactId>
         <version>${cxf.version}</version>
@@ -127,7 +127,7 @@
         <groupId>org.codehaus.jackson</groupId>
         <artifactId>jackson-jaxrs</artifactId>
         <version>${jackson.version}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- j2ee -->
       <dependency>
@@ -153,7 +153,7 @@
         <scope>provided</scope>
       </dependency>
       <!-- displaytag::displaytag -->
-      <dependency>
+      <!-- <dependency>
         <groupId>displaytag</groupId>
         <artifactId>displaytag</artifactId>
         <version>${displaytag.version}</version>
@@ -163,16 +163,16 @@
             <artifactId>slf4j-log4j12</artifactId>
           </exclusion>
         </exclusions>
-      </dependency>
+      </dependency> -->
       <!-- jsptags::pager-taglib -->
-      <dependency>
+      <!-- <dependency>
         <groupId>jsptags</groupId>
         <artifactId>pager-taglib</artifactId>
         <version>${pager-taglib.version}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- db -->
-      <dependency>
+      <!-- <dependency>
         <groupId>org.mybatis</groupId>
         <artifactId>mybatis</artifactId>
         <version>${mybatis.version}</version>
@@ -192,10 +192,10 @@
         <groupId>commons-dbcp</groupId>
         <artifactId>commons-dbcp</artifactId>
         <version>${commons.dbcp.version}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- log -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
 			<version>1.2</version>
@@ -204,12 +204,12 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>1.7.4</version>
-		</dependency>
-		<dependency>
+		</dependency> -->
+		<!-- <dependency>
 		    <groupId>org.slf4j</groupId>
 		    <artifactId>slf4j-jdk14</artifactId>
 		    <version>1.6.2</version>
-		</dependency>		
+		</dependency> -->		
 		<dependency>
 		  <groupId>org.slf4j</groupId>
 		  <artifactId>slf4j-api</artifactId>
@@ -224,7 +224,7 @@
 		</dependency> -->
 
       <!-- TEST -->
-      <dependency>
+      <!-- <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>${junit.version}</version>
@@ -241,7 +241,7 @@
         <groupId>javax.mail</groupId>
         <artifactId>mail</artifactId>
         <version>${mail.version}</version>
-      </dependency>
+      </dependency> -->
 
       <!-- commons -->
       <dependency>
@@ -297,7 +297,7 @@
         <!--<version>1.0.0.GA</version>-->
       <!--</dependency>-->
 
-      <dependency>
+      <!-- <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-validator</artifactId>
         <version>${hibernate-validator.version}</version>
@@ -317,7 +317,7 @@
 					<artifactId>slf4j-api</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.codehaus.jettison</groupId>
 			<artifactId>jettison</artifactId>
@@ -348,7 +348,7 @@
 		</dependency>
 
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>net.sf.json-lib</groupId>
 			<artifactId>json-lib</artifactId>
 			<version>2.4</version>
@@ -358,14 +358,14 @@
 			<groupId>net.sf.ezmorph</groupId>
 			<artifactId>ezmorph</artifactId>
 			<version>1.0.4</version>
-		</dependency>
+		</dependency> -->
 		
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.jsoup</groupId>
 			<artifactId>jsoup</artifactId>
 			<version>1.7.2</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 	
 	<build>
