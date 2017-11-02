@@ -363,13 +363,10 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.7.2</version>
 		</dependency>
-
-
-
-
 	</dependencies>
+	
 	<build>
-		<finalName>/</finalName>
+		<finalName>ROOT</finalName>
 		<!-- 为主资源目录开启属性过滤 -->
 		<resources>
 			<resource>
@@ -411,6 +408,7 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.6</version>
 					<configuration>
+						<contextRoot>/custom-context-root</contextRoot>
 						<archive>
 							<manifest>
 								<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
